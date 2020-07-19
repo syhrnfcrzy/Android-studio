@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".LoginActivity"
+    android:background="#f58e31">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/aman_"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Selamat Datang di PaceShop"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="-40dp"/>
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="Nama Pengguna"
+            android:textColor="#000"
+            android:layout_gravity="center"
+            android:drawableStart="@drawable/ic_person"
+            android:drawablePadding="20dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/edit"
+            android:padding="15dp"
+            android:autofillHints="" />
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="Kata Sandi"
+            android:textColor="#000"
+            android:layout_gravity="center"
+            android:drawableStart="@drawable/ic__key"
+            android:drawablePadding="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit"
+            android:padding="15dp"
+            android:importantForAutofill="no"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="10dp"
+            android:text="lupa kata sandi?"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:layout_marginEnd="30dp"
+            android:onClick="Lupakatasandi"/>
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:text="Masuk"
+            android:textColor="#fff"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button"/>
+
+        <View
+            android:layout_width="140dp"
+            android:layout_height="1dp"
+            android:layout_gravity="left"
+            android:background="#000"
+            android:layout_marginTop="20dp"/>
+
+        <View
+            android:layout_width="140dp"
+            android:layout_height="1dp"
+            android:layout_gravity="right"
+            android:background="#000"
+            android:layout_marginTop="-2dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="-11dp"
+            android:layout_marginRight="-1dp"
+            android:fontFamily="sans-serif"
+            android:text="ATAU"
+            android:textColor="#000"
+            android:textStyle="italic"/>
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:text="daftar"
+            android:textColor="#fff"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/button"
+            android:onClick="Daftar"/>
+
+
+
+    </LinearLayout>
+
+
+    </LinearLayout>
+

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "252222549634",
+    "firebase_url": "https://test-ae7cd.firebaseio.com",
+    "project_id": "test-ae7cd",
+    "storage_bucket": "test-ae7cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:252222549634:android:c3581f1b99e5f073da8e9b",
+        "android_client_info": {
+          "package_name": "com.ezy.swift"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "252222549634-jo28kb3dpk01qs9vmulpnt43dr53kit0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIsHMgoj_6Rajsm0EG7lOHEa0eaxJwZJQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "252222549634-jo28kb3dpk01qs9vmulpnt43dr53kit0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
